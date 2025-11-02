@@ -1,0 +1,91 @@
+/* Basic reset for consistent spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling for flexible layout */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 100%;
+}
+
+/* Centered content with optimal reading width */
+p, ol, ul, h1, h2, h3, img {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  margin-bottom: 0.75em;
+  margin-top: 1.5em;
+  font-size: 2em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  margin-top: 1.25em;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin-bottom: 0.4em;
+  margin-top: 1em;
+  font-size: 1.25em;
+}
+
+ol, ul {
+  margin-bottom: 1.5em;
+  padding-left: 40px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+  display: block;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  margin-bottom: 0.5em;
+}
+
+a:hover {
+  color: #004499;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+  
+  p, ol, ul, h1, h2, h3, img, a {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  img {
+    padding: 0;
+  }
+}
