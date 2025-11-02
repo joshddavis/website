@@ -1,11 +1,11 @@
-/* Basic reset for consistent spacing */
+/* Reset for consistent spacing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling for flexible layout */
+/* Body styling */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,7 +13,7 @@ body {
   max-width: 100%;
 }
 
-/* Article styling for newspaper-like appearance */
+/* Article styling */
 article {
   max-width: 700px;
   margin: 0 auto;
@@ -65,7 +65,7 @@ article p:first-of-type::first-letter {
   margin-top: 0.1em;
 }
 
-/* Centered content with optimal reading width */
+/* Centered content */
 p, ol, ul, h1, h2, h3, img {
   max-width: 700px;
   margin-left: auto;
@@ -122,7 +122,7 @@ a:hover {
   color: #004499;
 }
 
-/* Responsive adjustments for smaller screens */
+/* Responsive adjustments for smaller viewports */
 @media (max-width: 768px) {
   body {
     padding: 15px;
@@ -154,6 +154,7 @@ a:hover {
   }
 }
 
+/* Skip link styling */
 .skip-link {
   position: absolute;
   left: -9999px;
